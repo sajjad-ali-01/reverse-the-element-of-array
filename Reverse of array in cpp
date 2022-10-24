@@ -1,0 +1,21 @@
+#include<iosream>
+using namespace std;
+void reverse(int ar[],int arr[], int length)
+{
+	int j = length-1;
+	for (int i = 0; i <length; i++)
+	{
+		ar[j] = arr[i];
+		j--;
+	}
+	cout << "The values of array after reverse: " << endl;
+int main()
+{
+int arr[10] = { 1,2,3,4,5,6 };
+	int array[10];
+	int length = 6;
+	int key = 40;
+	int index = 2;
+reverse(array, arr, length);
+
+}
